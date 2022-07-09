@@ -1,5 +1,9 @@
 - suspendが復帰しない
+	- dellのpcの場合
 https://www.eisbahn.jp/yoichiro/2019/10/xps13_ubuntu.html
+	- thinkpadの場合
+https://askubuntu.com/questions/1327658/how-do-i-fix-a-thinkpad-p14s-to-wake-from-sleep
+
 
 - 指紋認証
 https://sicklylife.jp/ubuntu/1804/help/session-fingerprint.html
@@ -60,6 +64,8 @@ https://novicengineering.com/ubuntu_mozc_install
 
 - 英数切り替えキーマップ
 https://magidropack.hatenablog.com/entry/2018/11/30/120602
+mozc設定が見つからない&開けない場合は以下参照
+https://inno-tech-life.com/dev/linux/mozc_gui/
 
 - application切り替えコマンドをalt+tab→ ctrl+tabに変更
 ubuntuデフォルトのsettings>Keyboard>View and Customize Shortcuts>Switch applicationsから変更
@@ -69,5 +75,28 @@ ubuntuデフォルトのsettings>Keyboard>View and Customize Shortcuts>Switch ap
 	- タブ移動
 標準の設定ではtabキーが反応せず変更できなかったので以下のサイト参考に変更
 https://askubuntu.com/questions/1214694/how-do-i-switch-tabs-in-my-terminal-like-i-do-in-chrome
-	- タブ作成・タブ削除・コピペ
-標準の設定で変更
+	- タブ作成・タブ削除・コピペのショートカット
+標準の設定(タブのハンバーガーメニューからPreferencesに進む)から設定
+
+- gnome tweakのインストールURL
+https://www.linuxcapable.com/ja/install-gnome-tweaks-on-ubuntu-20-04-lts/
+
+- ランチャー設定
+https://ulauncher.io/
+ショートカット変更(alt+spaceへ)
+https://github.com/Ulauncher/Ulauncher/issues/265
+OS起動時の同時起動はPreferencesから設定可能
+
+- F4が常に点灯している
+以下のTechnical27の回答(/etc/systemd/system/fix-led.serviceを作ってコマンド実行)
+https://www.reddit.com/r/linuxquestions/comments/l6ptx8/lenovo_t14_f4_led_always_on/
+
+- terminalのビープ音をOFF
+https://it-blue-collar-dairy.com/mute_beep_on_ubuntu/
+
+- ワークスペースの水平追加(20.04は垂直しかない)
+下のWorkspace Matrixを採用
+https://askubuntu.com/questions/33972/can-i-set-a-horizontal-layout-for-workspaces
+
+- バックスラッシュ
+https://qiita.com/laineus/items/3f77b5e09cf8c7cde17b
