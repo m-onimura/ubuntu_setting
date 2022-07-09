@@ -28,19 +28,19 @@ https://github.com/autokey/autokey/issues/700
 
 - capslock・ctrl・alt・win・underbarのマッピング
 最終的に全ての設定を~/.xkb/keymap/myxkbにまとめ、.bashrcでシェル起動により反映できるように対応
--- capslockをctrlに変更
+	- capslockをctrlに変更
 xhbに設定をまとめたほうが管理しやすいため考え以下のsetxkbmapコマンドを実行
 http://www.noah.org/wiki/CapsLock_Remap_Howto
 → なぜか半角全角キーが他のキーマッピングされ使えなくなる(あとでこれは右上の設定を直接いじれば直ることが判明)
 → gnome-tweak-toolで対応。これでもsetxkbmap -printを実行してxkbの設定を確認したらsetxkbmapコマンドと同様の効果が得られているので問題なさそう。
 → 上記の半角全角問題は解決した(右上の設定をいじるだけ)ので、コマンド「setxkbmap -option ctrl:nocaps」で対応
 → Startup Applicationsに上記コマンドを登録し再起動時に自動設定
--- winをctrlに変更(下の変更で包括されたので、非対応)
+	- winをctrlに変更(下の変更で包括されたので、非対応)
 gnome-tweak-toolに専用の設定あり(capslock設定と同じ箇所)
--- ctrlをwin・winをalt・altをctrlに変更
+	- ctrlをwin・winをalt・altをctrlに変更
 コマンド「setxkbmap -option ctrl:swap_lalt_lctl_lwin」を実行
 → Startup Applicationsに上記コマンドを登録し再起動時に自動設定
--- tips
+	- tips
 「ctrl:swap_lalt_lctl_lwin」に当たる箇所はruleと呼ばれ、/usr/share/X11/xkb/rules/base.lstに一覧がある
 https://lambdalisue.hatenablog.com/entry/2013/09/27/212118(「xkbを使用して変更する方法」)
 以下のxkbファイルを用意する方法はaltの変更がうまく行かないのとブラウザの進む戻るジェスチャが無効になる為断念
@@ -66,8 +66,8 @@ ubuntuデフォルトのsettings>Keyboard>View and Customize Shortcuts>Switch ap
 → chromeなどでタブ移動が使えなくなるのでalt+tabにした
 
 - terminalのショートカット
--- タブ移動
+	- タブ移動
 標準の設定ではtabキーが反応せず変更できなかったので以下のサイト参考に変更
 https://askubuntu.com/questions/1214694/how-do-i-switch-tabs-in-my-terminal-like-i-do-in-chrome
--- タブ作成・タブ削除・コピペ
+	- タブ作成・タブ削除・コピペ
 標準の設定で変更
