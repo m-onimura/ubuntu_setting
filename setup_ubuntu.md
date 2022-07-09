@@ -100,3 +100,9 @@ https://askubuntu.com/questions/33972/can-i-set-a-horizontal-layout-for-workspac
 
 - バックスラッシュ
 https://qiita.com/laineus/items/3f77b5e09cf8c7cde17b
+
+- tar.gz拡張子のパッケージをインストール
+インストールするまで
+https://magidropack.hatenablog.com/entry/2018/11/07/122728
+ランチャーに登録
+https://magidropack.hatenablog.com/entry/2018/11/09/124723
