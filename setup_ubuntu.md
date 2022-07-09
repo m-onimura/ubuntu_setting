@@ -106,3 +106,7 @@ https://qiita.com/laineus/items/3f77b5e09cf8c7cde17b
 https://magidropack.hatenablog.com/entry/2018/11/07/122728
 ランチャーに登録
 https://magidropack.hatenablog.com/entry/2018/11/09/124723
+
+- ダブルタップで自動でドラッグになってしまう
+以下のdconf-editorの方法で対応
+https://yildiz.dev/posts/gnome-disable-tap-and-drag/
