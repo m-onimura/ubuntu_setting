@@ -8,6 +8,8 @@
 (setq scroll-step 1)
 ; turn off beep sound
 (setq visible-bell t)
+; display row number
+(global-display-line-numbers-mode)
 
 (global-set-key "\C-h" `delete-backward-char)
 (global-set-key "\C-c" `clipboard-copy)
