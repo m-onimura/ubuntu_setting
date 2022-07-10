@@ -4,7 +4,6 @@ https://www.eisbahn.jp/yoichiro/2019/10/xps13_ubuntu.html
 	- thinkpadの場合
 https://askubuntu.com/questions/1327658/how-do-i-fix-a-thinkpad-p14s-to-wake-from-sleep
 
-
 - 指紋認証
 https://sicklylife.jp/ubuntu/1804/help/session-fingerprint.html
 
@@ -110,3 +109,6 @@ https://magidropack.hatenablog.com/entry/2018/11/09/124723
 - ダブルタップで自動でドラッグになってしまう
 以下のdconf-editorの方法で対応
 https://yildiz.dev/posts/gnome-disable-tap-and-drag/
+
+- タブを画面最上部までドラッグすると自動で全画面表示になってしまう
+https://forums.ubuntulinux.jp/viewtopic.php?id=20152
