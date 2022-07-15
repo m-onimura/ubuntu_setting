@@ -112,3 +112,6 @@ https://yildiz.dev/posts/gnome-disable-tap-and-drag/
 
 - タブを画面最上部までドラッグすると自動で全画面表示になってしまう
 https://forums.ubuntulinux.jp/viewtopic.php?id=20152
+
+- 顔認証
+https://blog2.logical-dice.com/posts/2021/02/17/ubuntu-howdy/
