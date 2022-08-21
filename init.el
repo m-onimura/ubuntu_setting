@@ -21,9 +21,17 @@
 (setq scroll-step 1)
 ;; turn off beep sound
 (setq visible-bell t)
+;; org mode setting
+;;(setq org-directory "~/Work/org")
+;;(setq org-default-notes-file "notes.org")
+
+;; org-capture setting
+(global-set-key "\C-cc" `org-capture)
+(setq org-capture-templates '(("n" "Note" entry (file+headline "~/Work/org/notes.org" "Notes") "* %?\nEntered on %U\n %i\n %a")))
 ;; display row number
 (global-display-line-numbers-mode)
 
+;; basic keybind
 (global-set-key "\C-h" `delete-backward-char)
 (global-set-key "\C-x\C-c" `clipboard-copy)
 (global-set-key "\C-x\C-x" `clipboard-cut)
@@ -60,7 +68,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages (quote (uuidgen markdown-preview-mode))))
+ '(package-selected-packages (quote (org uuidgen markdown-preview-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
